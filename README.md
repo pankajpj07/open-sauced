@@ -2,7 +2,7 @@
   <br>
   <img alt="Open Sauced" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px">
   <h1>🍕 Open Sauced 🍕</h1>
-  <strong>The path to your next Open Source contribution</strong>
+  <strong>The path to your next Open Source contribution and more pizza</strong>
 </div>
 <br>
 <p align="center">
@@ -151,7 +151,7 @@ docker build -t open-sauced-dev .
 docker run -p 8080:80 open-sauced-dev
 ```
 
-Alternatively you can pull the production container and skip all builds: 
+Alternatively you can pull the production container and skip all builds:
 
 ```shell
 docker run -dit -p 8080:80 ghcr.io/open-sauced/open-sauced
@@ -203,7 +203,7 @@ npm run build:squoosh
 
 ### 🚧 Development debugging
 
-Thanks to [antfu/vite-plugin-inpesct](https://github.com/antfu/vite-plugin-inspect) we can always inspect the bundles in development by navigating to [localhost:3000/__inspect/](http://localhost:3000/__inspect/) in your browser.
+Thanks to [antfu/vite-plugin-inpesct](https://github.com/antfu/vite-plugin-inspect) we can always inspect the bundles in development by navigating to [localhost:3000/\_\_inspect/](http://localhost:3000/__inspect/) in your browser.
 
 ### 📙 Storybook
 
@@ -258,7 +258,7 @@ npx -y @open-sauced/conventional-commit
 Got Questions? Join the conversation in our [Discord](https://discord.gg/U2peSNf23P).  
 Find Open Sauced videos and release overviews on our [YouTube Channel](https://www.youtube.com/channel/UCklWxKrTti61ZCROE1e5-MQ).
 
-## 🎦 Repository Visualization 
+## 🎦 Repository Visualization
 
 [![Visualization of this repository](./public/diagram.svg)
 ](./src)
